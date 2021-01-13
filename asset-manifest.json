@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/vapranav/SpotifyWrapped2020/static/css/main.a05db1d9.chunk.css",
-    "main.js": "/vapranav/SpotifyWrapped2020/static/js/main.9bdf02fe.chunk.js",
-    "main.js.map": "/vapranav/SpotifyWrapped2020/static/js/main.9bdf02fe.chunk.js.map",
-    "runtime-main.js": "/vapranav/SpotifyWrapped2020/static/js/runtime-main.df722dc3.js",
-    "runtime-main.js.map": "/vapranav/SpotifyWrapped2020/static/js/runtime-main.df722dc3.js.map",
-    "static/js/2.27d8c839.chunk.js": "/vapranav/SpotifyWrapped2020/static/js/2.27d8c839.chunk.js",
-    "static/js/2.27d8c839.chunk.js.map": "/vapranav/SpotifyWrapped2020/static/js/2.27d8c839.chunk.js.map",
-    "static/js/3.0268567e.chunk.js": "/vapranav/SpotifyWrapped2020/static/js/3.0268567e.chunk.js",
-    "static/js/3.0268567e.chunk.js.map": "/vapranav/SpotifyWrapped2020/static/js/3.0268567e.chunk.js.map",
-    "index.html": "/vapranav/SpotifyWrapped2020/index.html",
-    "static/css/main.a05db1d9.chunk.css.map": "/vapranav/SpotifyWrapped2020/static/css/main.a05db1d9.chunk.css.map",
-    "static/js/2.27d8c839.chunk.js.LICENSE.txt": "/vapranav/SpotifyWrapped2020/static/js/2.27d8c839.chunk.js.LICENSE.txt"
+    "main.css": "/SpotifyWrapped2020/static/css/main.a05db1d9.chunk.css",
+    "main.js": "/SpotifyWrapped2020/static/js/main.9bdf02fe.chunk.js",
+    "main.js.map": "/SpotifyWrapped2020/static/js/main.9bdf02fe.chunk.js.map",
+    "runtime-main.js": "/SpotifyWrapped2020/static/js/runtime-main.2f01677a.js",
+    "runtime-main.js.map": "/SpotifyWrapped2020/static/js/runtime-main.2f01677a.js.map",
+    "static/js/2.27d8c839.chunk.js": "/SpotifyWrapped2020/static/js/2.27d8c839.chunk.js",
+    "static/js/2.27d8c839.chunk.js.map": "/SpotifyWrapped2020/static/js/2.27d8c839.chunk.js.map",
+    "static/js/3.0268567e.chunk.js": "/SpotifyWrapped2020/static/js/3.0268567e.chunk.js",
+    "static/js/3.0268567e.chunk.js.map": "/SpotifyWrapped2020/static/js/3.0268567e.chunk.js.map",
+    "index.html": "/SpotifyWrapped2020/index.html",
+    "static/css/main.a05db1d9.chunk.css.map": "/SpotifyWrapped2020/static/css/main.a05db1d9.chunk.css.map",
+    "static/js/2.27d8c839.chunk.js.LICENSE.txt": "/SpotifyWrapped2020/static/js/2.27d8c839.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.df722dc3.js",
+    "static/js/runtime-main.2f01677a.js",
     "static/js/2.27d8c839.chunk.js",
     "static/css/main.a05db1d9.chunk.css",
     "static/js/main.9bdf02fe.chunk.js"
