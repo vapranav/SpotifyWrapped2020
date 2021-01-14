@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/SpotifyWrapped2020/static/css/main.a05db1d9.chunk.css",
-    "main.js": "/SpotifyWrapped2020/static/js/main.9bdf02fe.chunk.js",
-    "main.js.map": "/SpotifyWrapped2020/static/js/main.9bdf02fe.chunk.js.map",
+    "main.js": "/SpotifyWrapped2020/static/js/main.e5d40c6b.chunk.js",
+    "main.js.map": "/SpotifyWrapped2020/static/js/main.e5d40c6b.chunk.js.map",
     "runtime-main.js": "/SpotifyWrapped2020/static/js/runtime-main.2f01677a.js",
     "runtime-main.js.map": "/SpotifyWrapped2020/static/js/runtime-main.2f01677a.js.map",
     "static/js/2.27d8c839.chunk.js": "/SpotifyWrapped2020/static/js/2.27d8c839.chunk.js",
@@ -17,6 +17,6 @@
     "static/js/runtime-main.2f01677a.js",
     "static/js/2.27d8c839.chunk.js",
     "static/css/main.a05db1d9.chunk.css",
-    "static/js/main.9bdf02fe.chunk.js"
+    "static/js/main.e5d40c6b.chunk.js"
   ]
 }
