@@ -1,6 +1,63 @@
 import Chart from "react-google-charts";
 import './App.css';
 
+let data1 =  [
+  ['Task', 'Hours per Day'],
+  ['Pop',     233],
+  ['Rock',      139],
+  ['Modern Rock',  61],
+  ['Rap', 52],
+  ['K-Pop',    27],
+  ['Lo-Fi Beats',   22],
+  ['Indie Pop',    20],
+  ['Show Tunes',    20],
+  ['EDM',    20],
+  ['Pop Punk',    17],
+  ['Others',    217],
+]
+
+let options1 = {
+  chartArea: { width: '80%' },
+  legend: {position:'bottom',
+            textStyle: {
+              color: 'white'
+            }},
+  backgroundColor: '#121212',
+  titleTextStyle: {color: 'white'},
+  fontName:'Montserrat',
+}
+
+let data2 = [
+  ['Task', 'No. of people'],
+  ['0-20k', 287],
+  ['20k-50k', 328],
+  ['50k-100k', 174],
+  ['100k-200k', 36],
+  ['200k-300k', 3]
+]
+
+let options2 = {
+  // Material design options
+  fontName:'Montserrat',
+  chartArea: { width: '80%' },
+  legend: {position:'bottom',
+              textStyle: {
+                color: 'white'
+              }},
+  titleTextStyle: {color: 'white'},
+  backgroundColor: '#121212',
+  hAxis: {
+    textStyle: { color: 'white',
+    fontName: 'Montserrat'
+  }
+  },
+  vAxis: {
+    textStyle: { color: 'white',
+    fontName: 'Montserrat'
+  }
+  },
+}
+
 function App() {
   return (
     <div className="App">
@@ -10,33 +67,11 @@ function App() {
       <Chart
       width="100%"
       height="500px"
-    chartType="PieChart"
-    loader={<div>Loading Chart</div>}
-    data={[
-      ['Task', 'Hours per Day'],
-      ['Pop',     233],
-      ['Rock',      139],
-      ['Modern Rock',  61],
-      ['Rap', 52],
-      ['K-Pop',    27],
-      ['Lo-Fi Beats',   22],
-      ['Indie Pop',    20],
-      ['Show Tunes',    20],
-      ['EDM',    20],
-      ['Pop Punk',    17],
-      ['Others',    217],
-    ]}
-    options={{
-      chartArea: { width: '80%' },
-      legend: {position:'bottom',
-                textStyle: {
-                  color: 'white'
-                }},
-      backgroundColor: '#121212',
-      titleTextStyle: {color: 'white'},
-      fontName:'Montserrat',
-    }}
-    legendToggle
+      chartType="PieChart"
+      loader={<div>Loading Chart</div>}
+      legendToggle
+      data= {data1}
+      options = {options1}
   />
   <h2>Minutes Listened</h2>
   <Chart
@@ -44,35 +79,9 @@ function App() {
   height="500px"
   chartType="BarChart"
   loader={<div>Loading Chart</div>}
-  data={[
-    ['Task', 'No. of people'],
-    ['0-20k', 287],
-    ['20k-50k', 328],
-    ['50k-100k', 174],
-    ['100k-200k', 36],
-    ['200k-300k', 3]
-  ]}
-  options={{
-    // Material design options
-    fontName:'Montserrat',
-    chartArea: { width: '80%' },
-    legend: {position:'bottom',
-                textStyle: {
-                  color: 'white'
-                }},
-    titleTextStyle: {color: 'white'},
-    backgroundColor: '#121212',
-    hAxis: {
-      textStyle: { color: 'white',
-      fontName: 'Montserrat'
-    }
-    },
-    vAxis: {
-      textStyle: { color: 'white',
-      fontName: 'Montserrat'
-    }
-    },
-  }}
+  data={data2}
+  options = {options2}
+  
 />
 <h2> Top Artists (Ranked)</h2>
 <div className="Artists">
